@@ -1,0 +1,68 @@
+###
+GRPC localhost:8080/LaptopService/CreateLaptop
+
+{
+  "laptop": {
+    "id": "5f368aab-707b-41d2-b2f1-d38de245a6f2",
+    "brand": "Dell",
+    "name": "XPS",
+    "cpu": {
+      "brand": "AMD",
+      "name": "Ryzen 3 PRO 3200GE",
+      "numberCores": 3,
+      "numberThreads": 7,
+      "minGhz": 2.1138802650016966,
+      "maxGhz": 3.7504629690574056
+    },
+    "ram": {
+      "value": "9",
+      "unit": "GIGABYTE"
+    },
+    "gpus": [
+      {
+        "brand": "Nvidia",
+        "name": "GTX 1660-Ti",
+        "minGhz": 1.3673196708297621,
+        "maxGhz": 1.4634768309141315,
+        "memory": {
+          "value": "3",
+          "unit": "GIGABYTE"
+        }
+      }
+    ],
+    "storages": [
+      {
+        "driver": "SSD",
+        "memory": {
+          "value": "641",
+          "unit": "GIGABYTE"
+        }
+      },
+      {
+        "driver": "HDD",
+        "memory": {
+          "value": "1",
+          "unit": "TERABYTE"
+        }
+      }
+    ],
+    "screen": {
+      "sizeInch": 16.703392,
+      "resolution": {
+        "width": 7125,
+        "height": 4008
+      },
+      "panel": "IPS",
+      "multitouch": true
+    },
+    "keyboard": {
+      "layout": "AZERTY"
+    },
+    "weightKg": 2.23275483519369,
+    "priceUsd": 3017.376615329367,
+    "releaseYear": 2018,
+    "updatedAt": "2024-04-28T09:36:23.052137Z"
+  }
+}
+
+<> 2024-04-28T154001.OK.json
